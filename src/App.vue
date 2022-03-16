@@ -1,5 +1,5 @@
 <template>
-  <left-nav class="left"></left-nav>
+  <left-nav class="left">123</left-nav>
   <main-boad class="main"></main-boad>
 </template>
 
