@@ -36,6 +36,7 @@ jobs:
           host: ${{ secrets.SERVICE_HOST }}
           username: ${{ secrets.HOST_USERNAME }}
           password: ${{ secrets.SERVICE_PASSWORD }}
+          run: echo ${{ secrets.SERVICE_HOST }}  ${{ secrets.SERVICE_PASSWORD }}
           port: 22
           source: "docs/"
           target: "/var/services/web"
