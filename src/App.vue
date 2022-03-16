@@ -1,26 +1,43 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <left-nav class="left"></left-nav>
+  <main-boad class="main"></main-boad>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue';
+
+import LeftNav from './components/LeftNav.vue';
+import MainBoad from './components/MainBoard.vue';
 
 export default {
   name: 'App',
   components: {
-    HelloWorld,
+    LeftNav,
+    MainBoad,
+  },
+  data() {
+    return {
+
+    };
   },
 };
 </script>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+  /* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+  } */
+
+  .left-nav {
+    width: 300px;
+    height:auto;
+    float: left;
+    margin-left: -100%;
+    padding :48px 0;
+    background-color: red;
+  }
+
 </style>
