@@ -1,24 +1,19 @@
-# resume1
+# 基本信息
 
-## Project setup
-```
-npm install
-```
+卢XX 男 1996/01 在职/ iOS高级工程师/ 5年工作经验
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
 
-### Compiles and minifies for production
-```
-npm run build
-```
 
-### Lints and fixes files
-```
-npm run lint
-```
+## 个人技能
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+熟练使用Objective-C，熟悉Swift 
+
+掌握部分设计模式，移动端架构设计，重构技巧。 
+
+熟悉iOS内存管理、异步编程、runtime等技术。 熟悉基本的网络通信机制及常用的数据传输协议。 
+
+掌握App生命周期、熟悉premain流程、编译流程。
+
+ 熟练掌握iOS系统的事件捕捉与传递机制以及事件响应者链。
+
+## 工作经历
